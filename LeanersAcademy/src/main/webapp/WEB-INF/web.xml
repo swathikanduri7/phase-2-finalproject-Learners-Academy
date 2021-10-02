@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>StudentServlet</servlet-name>
+  	<display-name>StudentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.swaraj.servlets.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Classes</servlet-name>
+  	<display-name>Classes</display-name>
+  	<description></description>
+  	<servlet-class>com.swaraj.servlets.Classes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClassesServlet</servlet-name>
+  	<display-name>ClassesServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.swaraj.servlets.ClassesServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SubjectServlet</servlet-name>
+  	<display-name>SubjectServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.swaraj.servlets.SubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TeacherServlet</servlet-name>
+  	<display-name>TeacherServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.swaraj.servlets.TeacherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>StudentServlet</servlet-name>
+  	<url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Classes</servlet-name>
+  	<url-pattern>/Classes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClassesServlet</servlet-name>
+  	<url-pattern>/ClassesServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SubjectServlet</servlet-name>
+  	<url-pattern>/SubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeacherServlet</servlet-name>
+  	<url-pattern>/TeacherServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
